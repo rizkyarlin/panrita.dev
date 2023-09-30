@@ -2,5 +2,11 @@
 [en]
 languageName = "English"
 languagedirection = "ltr"
-title = "Example Site"
+title = "Panrita.dev"
+weight = 1
+
+[id]
+languageName = "Bahasa Indonesia"
+languagedirection = "ltr"
+title = "Panrita.dev"
 weight = 1
