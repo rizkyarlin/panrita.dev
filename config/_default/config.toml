@@ -1,5 +1,5 @@
 # Change baseurl before deploy
-baseurl = "panrita.dev"
+baseurl = ""
 languageCode = "id"
 paginate = 5
 title = "Panrita.dev"
