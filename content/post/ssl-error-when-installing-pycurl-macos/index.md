@@ -9,7 +9,6 @@ categories:
 tags:
     - python
     - macos
-# weight: 1       # You can add weight to some posts to override the default sorting (date descending)
 ---
 
 ## Intro
@@ -52,8 +51,7 @@ Setelah explore beberapa pertanyaan dan jawaban di StackOverflow, saya berhasil 
 
     Output ini juga bisa berbeda dengan di Mac mu.
 
-4. Now that we found out that it linked to `/opt/homebrew/Cellar/openssl@3/3.1.4`
-5. Nah sekarang setelah kita tau lokasi openssl-nya, kita sekarang akan memberitahu OS kita lokai openssl. Ada 3 variabel yang harus diset: `PYCURL_SSL_LIBRARY`, `LDFLAGS` dan `CPPFLAGS`.
+4. Nah sekarang setelah kita tau lokasi openssl-nya, kita sekarang akan memberitahu OS kita lokai openssl. Ada 3 variabel yang harus diset: `PYCURL_SSL_LIBRARY`, `LDFLAGS` dan `CPPFLAGS`.
 	```bash
 	export PYCURL_SSL_LIBRARY=openssl
 	export LDFLAGS="-L/opt/homebrew/Cellar/openssl@3/3.1.4/lib"
@@ -61,7 +59,7 @@ Setelah explore beberapa pertanyaan dan jawaban di StackOverflow, saya berhasil 
     ```
 
 
-6. Now sekarang kita sudah bisa coba lagi install `pycurl` nya
+5. Now sekarang kita sudah bisa coba lagi install `pycurl` nya
     ```bash
     pip install pycurl
     ```
